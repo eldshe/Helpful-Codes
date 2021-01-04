@@ -6,3 +6,5 @@
  updateArray is the function to remove the no-more-available hours from the array.
 
  Have fun hacking!
+ 
+ [My answer in stackoverflow.com](https://stackoverflow.com/questions/65553855/javascript-timeslots-handling-by-removing-service-duration/65554897#65554897)
