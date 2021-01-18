@@ -1,0 +1,29 @@
+<!-- Say you have some divs on your page, and you want a background pattern or gradient that can be seen only through those divs, like windows -->
+<!-- This is what you need to do : -->
+
+<html>
+<style>
+.window{
+  background-image: linear-gradient(to right,pink,green);
+  background-repeat: no-repeat;
+  background-attachment: fixed;             <!-- the magic is in this line! -->
+  
+  
+  height:170px;
+  width:170px;
+}
+.container{
+display:flex;
+width:250px;
+}
+</style>
+<body>
+<div class="container">
+<div class="window" />
+<div class="window" />
+<div class="window" />
+<div class="window" />
+<div class="window" />
+</div>
+</body>
+</html>
